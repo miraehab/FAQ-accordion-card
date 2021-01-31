@@ -1,0 +1,160 @@
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+#main {
+    margin:auto;
+    margin-bottom: 16%;
+    width: 70%;
+    margin-top: 5%;  
+    background-color: white;
+    border-radius: 5%;
+    padding: 0 2rem 100px ;
+    margin-top: 25%;
+}
+
+#right {
+    padding: 10% 0 5% 0;
+    margin-right: 5%;
+    margin-top: -15%;
+}
+
+#left {
+    background-image: url(../images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 80%;
+}
+
+#woman {
+    background-image: url(../images/illustration-woman-online-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+    height: 400px;
+    position: relative;
+    left: 32%;
+    margin-top: -209px;
+    margin-left: -32%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+p {
+    Font-size: 15px;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif !important;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+.q {
+    color: hsl(237, 12%, 33%);
+    width:99%;
+    border-bottom: 2px solid hsl(240, 5%, 91%);
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+
+.ans {
+   color:hsl(240, 6%, 50%);
+}
+
+.collapsing {
+   height: 20px; 
+   color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+    color: hsl(237, 12%, 33%);
+    width:130%;
+   
+}
+
+.collapsing:hover {
+    color:hsl(14, 88%, 65%);
+}
+
+.q:hover {
+    color:hsl(14, 88%, 65%);
+}
+
+.div {
+    width:95%;
+}
+
+.img {
+    width:12px;
+   height: 10px; 
+   float: right;
+   margin-right: inherit;
+    padding-left: inherit;
+}
+
+.row {
+    margin-left:inherit;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 784px) {
+    #woman {
+        background-image: url(../images/illustration-woman-online-desktop.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 400px;
+        height: 400px;
+        margin-left: -65%;
+        position: relative;
+        left: 0%;
+        margin-top: 1%;
+    }
+
+    #box {
+        background-image: url(../images/illustration-box-desktop.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 45%;
+        width: 400px;
+        height: 400px;
+        margin-left: -60%;
+        z-index: 3;
+        margin-top: 10%;
+    }
+
+    #left {
+        background-image: url(../images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 180%;
+        background-position-x: 140%;
+        background-position-y: 90%;
+    }
+
+    #main {
+        margin: auto;
+        margin-bottom: 9%;
+        width: 70%;
+        margin-top: 5%;  
+        background-color: white;
+        border-radius: 5%;
+        padding: 1rem 2rem 0 0;
+    }
+
+    #right {
+        padding: 10% 0 5% 0;
+        margin-right: 5%;
+        margin-top: 0%;
+    }
+    h1 {
+        text-align: left;
+    }
+    
+}
